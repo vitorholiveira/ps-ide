@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    height: 20vw;
+    background-color: #4A0101;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.children {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fotos {
+    padding-top: 3%;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+}
+
+.fotos li {
+    color: #000000;
+    margin: 20px;
+}

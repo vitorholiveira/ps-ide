@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    height: 6vw;
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: poppins;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoIDE {
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
