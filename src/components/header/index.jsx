@@ -5,9 +5,9 @@ export default function Header() {
     return (
         <div className="Header">
             <div className="Fields">
-                <a href="#banner">HOME</a>
-                <a href="#">PRODUTOS</a>
-                <a href="#">SOBRE</a>
+                <a href="#banner"><b>HOME</b></a>
+                <a href="#"><b>PRODUTOS</b></a>
+                <a href="#"><b>SOBRE</b></a>
             </div>
         </div>
     )
