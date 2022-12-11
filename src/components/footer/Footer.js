@@ -1,5 +1,5 @@
 import './footer.css'
-import decor from '../../img/decor1.png'
+import decor from '../../img/decor.png'
 import ide from '../../img/ide.png'
 
 function Footer() {
