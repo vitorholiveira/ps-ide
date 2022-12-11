@@ -1,9 +1,12 @@
+import React from 'react'
+import Header from './components/header'
 import Footer from './components/footer/Footer'
 import Instagram from './components/instagram/Instagram'
 
 function App () {
   return (
     <div>
+      <Header/>
       <Instagram/>
       <Footer/>
     </div>
