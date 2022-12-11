@@ -1,0 +1,31 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4A0101;
+    height: 42px;
+}
+
+.Header * {
+    padding: 0;
+    margin: 0;
+}
+
+.Fields {
+    display: flex;
+    gap: 132px;
+}
+
+.Fields a{
+    color: white;
+    text-decoration: none;
+    
+    font-family: "Poppins";
+}
+
+@media screen and (max-width: 767px) {
+    .Fields {
+        display: flex;
+        gap: 32px;
+    }
+}
