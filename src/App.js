@@ -1,8 +1,12 @@
-import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+import Instagram from './components/instagram/Instagram'
 
 function App () {
   return (
-    <Header />
+    <div>
+      <Instagram/>
+      <Footer/>
+    </div>
   );
 }
 
