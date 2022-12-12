@@ -6,6 +6,7 @@
     background: #000000;
     color: #FFFFFF;
     font-size: 1.25vw;
+    font-style: normal;
     font: "Poppins";
     display: flex;
     justify-content: space-between;
@@ -17,6 +18,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    color: #ea1538;
+    transition: .3s;
 }
 
 .logo img{
@@ -35,4 +46,20 @@
 
 .logoIDE img{
     height: 4.15vw;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        height: 20vw;
+        font-size: 1.5vw;
+    }
+
+    .logo img {
+        height: 12vw;
+        padding-bottom: .3vw;
+    }
+
+    .logoIDE img{
+        height: 6vw;
+    }
 }
