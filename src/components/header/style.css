@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     background: #4A0101;
-    height: 10vh;
+    height: 5vw;
+    width: 100%;
 }
 
 .Header * {
@@ -13,20 +14,35 @@
 
 .Fields {
     display: flex;
-    justify-content:end;
-    gap: 20vw;
+    justify-content: end;
+    gap: 15vw;
 }
 
 .Fields a{
     color: white;
     text-decoration: none;
     font-family: "Poppins";
-    font-size: 5vh;
+    font-size: 3vw;
+}
+
+.Fields a:hover{
+    color: #ea1538;
+    transition: .3s;
 }
 
 @media screen and (max-width: 767px) {
+
+    .Header {
+        display: flex;
+        height: 15vh;
+    }
+
     .Fields {
         display: flex;
-        gap: 32px;
+        gap: 8vw;
+    }
+
+    .Fields a{
+        font-size: 6.5vw;
     }
 }
