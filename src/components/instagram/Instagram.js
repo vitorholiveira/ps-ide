@@ -7,19 +7,19 @@ function Instagram() {
     return (
         <div className="container">
             <div id="insta"className="children">
-                SIGA-NOS NO INSTAGRAM
+                <p><b>SIGA-NOS NO INSTAGRAM</b></p>
                 <ul className="fotos">
                     <li>
                         <img src={copa} alt="DECOR" />
-                        <p><b>DecorHouse</b> a DecorHouse já está <br/>em clima de copa do mundo ...</p>
+                        <p><b>DecorHouse</b> a DecorHouse já está em clima de copa do mundo ...</p>
                     </li>
                     <li>
                         <img src={natal} alt="natal" />
-                        <p><b>DecorHouse</b> já está pensando em <br/>como vai decorar a casa para ...</p>
+                        <p><b>DecorHouse</b> já está pensando em como vai decorar a casa para ...</p>
                     </li>
                     <li>
                         <img src={anonovo} alt="anonovo" />
-                        <p><b>DecorHouse</b> visite nossas lojas <br/>para comprar sua decoração de ...</p>
+                        <p><b>DecorHouse</b> visite nossas lojas para comprar sua decoração de ...</p>
                     </li>
                 </ul>
             </div>

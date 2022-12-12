@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 20vw;
+    height: 42vw;
     background-color: #4A0101;
     color: #FFFFFF;
     display: flex;
@@ -13,17 +13,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+}
+
+.children p{
+    padding: 2%;
+    font-size: 2.3vw;
 }
 
 .fotos {
-    padding-top: 3%;
     list-style: none;
-    margin: 10px;
     display: flex;
 }
 
 .fotos li {
+    background: #FFFFFF;
+    margin: 1.5vw;
+}
+.fotos li p{
     color: #000000;
-    margin: 20px;
+    width: 17.5vw;
+    font-size: 1.25vw;
+    padding: 1.25vw;
+    padding-top: 1vw;
+
+}
+.fotos li img {
+    width: 20vw;
 }

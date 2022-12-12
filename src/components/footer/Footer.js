@@ -9,10 +9,10 @@ function Footer() {
       </div>
       <div className="logo">
         <img src={decor} alt="DECOR" />
-        Termos de Uso | Politica de Privadiade | Política de Cookies
+        <p>Termos de Uso | Politica de Privadiade | Política de Cookies</p>
       </div>
       <div className="logoIDE">
-        Realização:
+        <p>Realização:</p>
         <img src={ide} alt="IDE" />
       </div>
     </div>
