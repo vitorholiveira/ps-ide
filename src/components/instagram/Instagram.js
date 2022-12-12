@@ -9,15 +9,15 @@ function Instagram() {
             <div id="insta"className="children">
                 <p><b>SIGA-NOS NO INSTAGRAM</b></p>
                 <ul className="fotos">
-                    <li>
+                    <li className="copa">
                         <img src={copa} alt="DECOR" />
                         <p><b>DecorHouse</b> a DecorHouse já está em clima de copa do mundo ...</p>
                     </li>
-                    <li>
+                    <li className="natal">
                         <img src={natal} alt="natal" />
                         <p><b>DecorHouse</b> já está pensando em como vai decorar a casa para ...</p>
                     </li>
-                    <li>
+                    <li className="anonovo">
                         <img src={anonovo} alt="anonovo" />
                         <p><b>DecorHouse</b> visite nossas lojas para comprar sua decoração de ...</p>
                     </li>
