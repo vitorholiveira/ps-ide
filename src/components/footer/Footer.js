@@ -9,7 +9,7 @@ function Footer() {
       </div>
       <div className="logo">
         <img src={decor} alt="DECOR" />
-        <p>Termos de Uso | Politica de Privadiade | Política de Cookies</p>
+        <p><a href="#">Termos de Uso</a> | <a href="#">Politica de Privadiade</a> | <a href="#">Política de Cookies</a></p>
       </div>
       <div className="logoIDE">
         <p>Realização:</p>

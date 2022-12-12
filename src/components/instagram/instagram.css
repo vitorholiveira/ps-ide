@@ -17,7 +17,7 @@
 }
 .children p{
     font-size: 2vw;
-    padding: 2%;
+    padding: 1vw;
 }
 
 .fotos {
@@ -52,4 +52,44 @@
 }
 .fotos li img {
     width: 20vw;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        height: 190vw;
+    }
+
+    .fotos {
+        flex-direction: column;
+    }
+
+    .fotos li {
+        margin: 2vw;
+    }
+    .fotos li img {
+        width: 45vw;
+    }
+
+    .fotos li p{
+        width: 40vw;
+        font-size: 2vw;
+        padding: 2.5vw;
+        padding-top: 1vw;
+    }
+
+    .copa {
+        border-radius: 3vw 0vw 3vw 0vw;
+    }
+    
+    .natal{
+        border-radius: 0vw 0vw 3vw 3vw;
+    }
+    
+    .anonovo {
+        border-radius: 0vw 3vw 0vw 3vw;
+    }
+
+    .children p {
+        font-size: 6vw;
+    }
 }

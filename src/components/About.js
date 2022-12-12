@@ -1,7 +1,6 @@
 import React from 'react';
-import Header from './components/header';
 
-function App () {
+function About () {
   return (
     <p style="font-size: 20px;text-align:center"><em>SOBRE A LOJA</em></p>>
     <p style="text-align:center">A loja DecorHouse é a loja ideal para decorar a sua casa em
@@ -10,8 +9,8 @@ function App () {
         temos os produtos que precisa para dar uma levantada na
         sua casa.</p>>
     <p style="text-align:center">a DecorHouse possui os melhores preços da região, vendendo
-    produtos de qualidade pelo melhor preço do mercado.</p>>
+    produtos de qualidade pelo melhor preço do mercado.</p>
   );
 }
 
-export default App;
+export default About;
