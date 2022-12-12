@@ -1,6 +1,6 @@
 import './instagram.css'
 import copa from '../../img/copa.png'
-import natal from '../../img/natal1.png'
+import natal from '../../img/natal.png'
 import anonovo from '../../img/anonovo.png'
 
 function Instagram() {
