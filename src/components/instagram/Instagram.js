@@ -6,13 +6,8 @@ import anonovo from '../../img/anonovo.png'
 function Instagram() {
     return (
         <div className="container">
-<<<<<<< Updated upstream
-            <div className="children">
-                SIGA-NOS NO INSTAGRAM
-=======
             <div id="insta"className="children">
                 <p><b>SIGA-NOS NO INSTAGRAM</b></p>
->>>>>>> Stashed changes
                 <ul className="fotos">
                     <li>
                         <img src={copa} alt="DECOR" />
