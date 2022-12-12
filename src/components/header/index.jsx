@@ -6,8 +6,8 @@ export default function Header() {
         <div id="home"className="Header">
             <div className="Fields">
                 <a href="#home"><b>HOME</b></a>
-                <a href="#insta"><b>PRODUTOS</b></a>
-                <a href="#"><b>SOBRE</b></a>
+                <a href="#"><b>PRODUTOS</b></a>
+                <a href="#sobre"><b>SOBRE</b></a>
             </div>
         </div>
     )

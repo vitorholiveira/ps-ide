@@ -4,7 +4,7 @@ import ide from '../../img/ide.png'
 
 function Footer() {
   return (
-    <div className="footer">
+    <div id="sobre"className="footer">
       <div className="logoIDE">
       </div>
       <div className="logo">

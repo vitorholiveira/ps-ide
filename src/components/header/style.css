@@ -4,6 +4,7 @@
     align-items: center;
     background: #4A0101;
     height: 5vw;
+    width: 100%;
 }
 
 .Header * {
