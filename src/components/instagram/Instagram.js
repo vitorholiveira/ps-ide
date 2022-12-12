@@ -6,7 +6,7 @@ import anonovo from '../../img/anonovo.png'
 function Instagram() {
     return (
         <div className="container">
-            <div id="insta"className="children">
+            <div id="insta" className="children">
                 <p><b>SIGA-NOS NO INSTAGRAM</b></p>
                 <ul className="fotos">
                     <li className="copa">

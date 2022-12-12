@@ -1,7 +1,7 @@
 
 .Banner {
     position: relative;
-    background-image: url(image23.png);
+    background-image: url(../../img/capa.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 50%, 50%;
