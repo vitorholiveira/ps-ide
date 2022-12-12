@@ -25,6 +25,11 @@
     font-size: 3vw;
 }
 
+.Fields a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
 @media screen and (max-width: 767px) {
 
     .Header {
