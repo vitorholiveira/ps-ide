@@ -29,8 +29,23 @@
 
 .fotos li {
     background: #FFFFFF;
+    width: 20vw;
+    width: 20vw;
     margin: 1.5vw;
 }
+
+.copa {
+    border-radius: 1vw 0vw 1vw 0vw;
+}
+
+.natal{
+    border-radius: 0vw 0vw 1vw 1vw;
+}
+
+.anonovo {
+    border-radius: 0vw 1vw 0vw 1vw;
+}
+
 .fotos li p{
     color: #000000;
     width: 17.5vw;
