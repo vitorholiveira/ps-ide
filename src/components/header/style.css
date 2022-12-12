@@ -29,15 +29,15 @@
 
     .Header {
         display: flex;
-        height: 15vw;
+        height: 15vh;
     }
 
     .Fields {
         display: flex;
-        gap: 10vw;
+        gap: 8vw;
     }
 
     .Fields a{
-        font-size: 6vw;
+        font-size: 6.5vw;
     }
 }

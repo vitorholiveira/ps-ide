@@ -8,13 +8,6 @@
     height: 60vw;
 }
 
-.Banner .imagem {
-    position: absolute;
-    height: 400px;
-    width: 100vw;
-    background: red;
-}
-
 .Banner .texto {
 
     position: absolute;
@@ -40,7 +33,7 @@
 
 @media screen and (max-width: 767px) {
     .Banner {
-        height: 500px;
+        height: 60vh;
     }
 
     .Banner .texto {
