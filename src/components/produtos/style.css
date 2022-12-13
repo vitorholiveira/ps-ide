@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    height: 100vw;
+    height: 70vw;
 }
 
 .Produto .titulo {
@@ -30,4 +30,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+/* classes dos produtos */
+.containerProdutos {
+    padding: 2vw 2vw 2vw 2vw;
+    font-size: 1.5vw;
+    color: #000000;
+    background: #FFFFFF;
+    width: 76vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
