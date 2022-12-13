@@ -1,7 +1,11 @@
-import './style.css'
+import style from './style.module.css'
 import MostraProdutos from './Produtos'
 
+import { useState } from 'react'
+
 export default function Produtos() {
+
+    let [num, setNum] = useState(0)
 
     function criaProduto(nome, desc, valor) {
         return {
@@ -53,22 +57,18 @@ export default function Produtos() {
             "Roupa feminina.",
             80)]
 
-    let Aba = Natal
     const Abas = [Copa, Natal, AnoNovo]
 
-    function trocaAba() {
-        console.log("Trocou de aba.")
-    }
 
     return (
-        <div id="produtos" className="Produto">
-            <div className="titulo">
+        <div id="produtos" className={style.Produto}>
+            <div className={style.titulo}>
                 <p>PRODUTOS DISPONÍVEIS</p>
             </div>
-            <div className="menu">
-                <button onClick={trocaAba}>Copa do Mundo</button><button onClick={trocaAba}>Natal</button><button onClick={trocaAba}>Ano Novo</button>
+            <div className={style.menu}>
+                <button id="0" onClick={()=>setNum(0)}>Copa do Mundo</button><button id="1" onClick={()=>setNum(1)}>Natal</button><button id="2" onClick={()=>setNum(2)}>Ano Novo</button>
             </div>
-            <MostraProdutos produtos={Aba} />
+            <MostraProdutos produtos={Abas[num]} />
         </div>
     )
 }
