@@ -8,13 +8,13 @@ function Footer() {
     <div id="sobre"className={footer.footer}>
       <div className={footer.logoIDE}>
       </div>
-      <div className={footer.logo}>
+      <div id="#footer" className={footer.logo}>
         <img src={decor} alt="DECOR" />
-        <p><a href="#">Termos de Uso</a> | <a href="#">Politica de Privadiade</a> | <a href="#">Política de Cookies</a></p>
+        <p><a href="#footer">Termos de Uso</a> | <a href="#footer">Politica de Privadiade</a> | <a href="#footer">Política de Cookies</a></p>
       </div>
       <div className={footer.logoIDE}>
         <p>Realização:</p>
-        <img src={ide} alt="IDE" />
+        <a href="https://www.idejr.com.br/"><img href="https://www.idejr.com.br/" src={ide} alt="IDE" /></a>
       </div>
     </div>
   );

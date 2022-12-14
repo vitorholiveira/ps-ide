@@ -55,7 +55,13 @@ export default function Produtos() {
             50),
         criaProduto("Vestido Branco",
             "Roupa feminina.",
-            80)]
+            80),
+        criaProduto("Taça de Espumante",
+            "Taça de plástico.",
+            10),
+        criaProduto("Balões 2023",
+            "Balões cheios de gás hélio dos números de 2023.",
+            30)]
 
     const Abas = [Copa, Natal, AnoNovo]
 

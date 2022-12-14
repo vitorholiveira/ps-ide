@@ -51,6 +51,17 @@
 .logoIDE p{
     height: 1.25vw;
 }
+
+@media screen and (min-width: 767px) {
+    .logoIDE img:hover{
+        height: 5.3vw;
+        transition: .3s;
+    }
+    .logoIDE img{
+        transition: .1s;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .footer {
         padding-right: 2%;
