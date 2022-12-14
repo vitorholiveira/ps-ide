@@ -89,7 +89,7 @@ export default function Produtos() {
                     e.currentTarget.setAttribute("focus", "")
                 }}>Ano Novo</button>
             </div>
-            <MostraProdutos produtos={Abas[num]} />
+            <MostraProdutos id="prod" produtos={Abas[num]} />
         </div>
     )
 }
