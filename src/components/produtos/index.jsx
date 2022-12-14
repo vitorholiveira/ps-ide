@@ -1,13 +1,17 @@
-import './style.css'
+import style from './style.module.css'
 import MostraProdutos from './Produtos'
 
+import { useState } from 'react'
+
 export default function Produtos() {
+
+    let [num, setNum] = useState(0)
 
     function criaProduto(nome, desc, valor) {
         return {
             nome,
             desc,
-            valor
+            valor,
         }
     }
 
@@ -51,24 +55,47 @@ export default function Produtos() {
             50),
         criaProduto("Vestido Branco",
             "Roupa feminina.",
-            80)]
+            80),
+        criaProduto("Taça de Espumante",
+            "Taça de plástico.",
+            10),
+        criaProduto("Balões 2023",
+            "Balões cheios de gás hélio dos números de 2023.",
+            30)]
 
-    let Aba = Natal
     const Abas = [Copa, Natal, AnoNovo]
 
-    function trocaAba() {
-        console.log("Trocou de aba.")
-    }
-
+    
     return (
-        <div id="produtos" className="Produto">
-            <div className="titulo">
+        <div id="produtos" className={style.Produto}>
+            <div className={style.titulo}>
                 <p>PRODUTOS DISPONÍVEIS</p>
             </div>
-            <div className="menu">
-                <button onClick={trocaAba}>Copa do Mundo</button><button onClick={trocaAba}>Natal</button><button onClick={trocaAba}>Ano Novo</button>
+            <div id="tomale" className={style.menu}>
+                <button id="0" focus="asd" onClick={(e)=>{
+                    setNum(0); 
+                    document.querySelectorAll("#tomale button").forEach((btn) => {
+                        btn.removeAttribute("focus");
+                    })
+                    e.currentTarget.setAttribute("focus", "")
+
+                }}>Copa do Mundo</button>
+                <button id="1" onClick={(e)=>{
+                    setNum(1); 
+                    document.querySelectorAll("#tomale button").forEach((btn) => {
+                        btn.removeAttribute("focus");
+                    })
+                    e.currentTarget.setAttribute("focus", "")
+                }}>Natal</button>
+                <button id="2" onClick={(e)=>{
+                    setNum(2); 
+                    document.querySelectorAll("#tomale button").forEach((btn) => {
+                        btn.removeAttribute("focus");
+                    })
+                    e.currentTarget.setAttribute("focus", "")
+                }}>Ano Novo</button>
             </div>
-            <MostraProdutos produtos={Aba} />
+            <MostraProdutos id="prod" produtos={Abas[num]} />
         </div>
     )
 }
