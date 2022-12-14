@@ -38,7 +38,7 @@
     color: white;
 }
 
-.Produto .menu button:focus{
+.Produto .menu button[focus]{
     font-weight: 700;
 }
 

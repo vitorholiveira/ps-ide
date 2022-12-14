@@ -11,7 +11,7 @@ export default function Produtos() {
         return {
             nome,
             desc,
-            valor
+            valor,
         }
     }
 
@@ -59,14 +59,35 @@ export default function Produtos() {
 
     const Abas = [Copa, Natal, AnoNovo]
 
-
+    
     return (
         <div id="produtos" className={style.Produto}>
             <div className={style.titulo}>
                 <p>PRODUTOS DISPONÍVEIS</p>
             </div>
-            <div className={style.menu}>
-                <button id="0" onClick={()=>setNum(0)}>Copa do Mundo</button><button id="1" onClick={()=>setNum(1)}>Natal</button><button id="2" onClick={()=>setNum(2)}>Ano Novo</button>
+            <div id="tomale" className={style.menu}>
+                <button id="0" focus="asd" onClick={(e)=>{
+                    setNum(0); 
+                    document.querySelectorAll("#tomale button").forEach((btn) => {
+                        btn.removeAttribute("focus");
+                    })
+                    e.currentTarget.setAttribute("focus", "")
+
+                }}>Copa do Mundo</button>
+                <button id="1" onClick={(e)=>{
+                    setNum(1); 
+                    document.querySelectorAll("#tomale button").forEach((btn) => {
+                        btn.removeAttribute("focus");
+                    })
+                    e.currentTarget.setAttribute("focus", "")
+                }}>Natal</button>
+                <button id="2" onClick={(e)=>{
+                    setNum(2); 
+                    document.querySelectorAll("#tomale button").forEach((btn) => {
+                        btn.removeAttribute("focus");
+                    })
+                    e.currentTarget.setAttribute("focus", "")
+                }}>Ano Novo</button>
             </div>
             <MostraProdutos produtos={Abas[num]} />
         </div>

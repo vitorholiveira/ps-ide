@@ -1,10 +1,12 @@
 import style from './style.module.css'
 
 export default function mostraProdutos({ produtos }) {
+    
     return (
         <>
             {
                 produtos.map((produto) => (
+
                     <div className={style.containerProdutos}>
                         <div>
                             <p><b>{produto.nome}</b></p>
