@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/header'
 import Banner from './components/banner'
 import Produtos from './components/produtos'
+import About from './components/about/About'
 import Footer from './components/footer/Footer'
 import Instagram from './components/instagram/Instagram'
 
@@ -11,6 +12,7 @@ function App () {
       <Header/>
       <Banner/>
       <Produtos/>
+      <About/>
       <Instagram/>
       <Footer/>
     </div>
