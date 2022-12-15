@@ -21,8 +21,8 @@
 .Fields a{
     color: white;
     text-decoration: none;
-    font-family: "Poppins";
     font-size: 3vw;
+    font-weight: 500;
 }
 
 .Fields a:hover{
