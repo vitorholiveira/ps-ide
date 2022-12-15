@@ -12,7 +12,6 @@ function App () {
       <Header/>
       <Banner/>
       <Produtos/>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <About/>
       <Instagram/>
       <Footer/>

@@ -1,0 +1,126 @@
+.Produto {
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 70vw;
+}
+
+.Produto .titulo {
+    margin: 5vw 0vw 4vw 0vw;
+    height: 3.7vw;
+    width: 40vw;
+    background: #780000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 6vw;
+}
+
+.Produto .menu {
+    height: 3.5vw;
+    background: #780000;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Produto .menu button{
+    border: none;
+    font-size: 2vw;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.Produto .menu button:hover{
+    color: #310000;
+}
+
+.Produto .menu button[focus]{
+    font-weight: 700;
+}
+
+/* classes dos produtos */
+.containerProdutos {
+    padding: 2vw 2vw 2vw 2vw;
+    font-size: 1.5vw;
+    color: #000000;
+    background: #FFFFFF;
+    width: 71vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerProdutos .valorr{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw .325vw .75vw .325vw;
+    height: 4.5vw;
+    width: 4.5vw;
+    border-radius: 50%;
+    background-color: #780000;
+    flex-direction: column;
+
+}
+
+.containerProdutos .valorr p{
+    color: white;
+    text-align:center;
+    height: 1.5vw;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.containerProdutos:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+@media screen and (max-width: 767px) {
+    .Produto {
+        height: 115vw;
+    }
+
+    .Produto .titulo {
+        font-size: 4.5vw;
+        height: 6vw;
+        width: 70vw;
+        margin: 8vw 0vw 5vw 0vw;
+    }
+    
+    .Produto .menu {
+        height: 5.5vw;
+        width: 90vw;
+    }
+    
+    .Produto .menu button{
+        font-size: 3.5vw;
+    }
+
+    .containerProdutos {
+        padding: 2vw 4vw 2vw 4vw;
+        font-size: 2.5vw;
+        width: 82vw;
+        height: 12vw;
+    }
+    
+    .containerProdutos .valorr{
+        padding: 0vw .9vw 1.8vw .9vw;
+        height: 7vw;
+        width: 7vw;
+        border-radius: 50%;
+    
+    }
+    
+    .containerProdutos .valorr p{
+        height: 2.5vw;
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+}
