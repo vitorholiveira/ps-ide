@@ -4,7 +4,7 @@ import loja from '../../img/loja.png'
 function About () {
 
   return (
-      <div id="Sobre"className={style.Sobre}>
+      <div id="sobre"className={style.Sobre}>
           <div className={style.titulo}>
               <p>SOBRE A LOJA</p>
           </div>
